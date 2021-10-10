@@ -1,0 +1,1 @@
+<img src="{{asset('img/home/campo.jpg')}}" alt="" style="width:60px;">

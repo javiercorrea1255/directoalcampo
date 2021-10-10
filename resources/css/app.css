@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'common.css';
+@import 'buttons.css';
+@import 'alerts.css';
+@import 'cards.css';
+@import 'container.css';
+@import 'cards.css';
+@import 'forms.css';
+@import 'spinner.css';
