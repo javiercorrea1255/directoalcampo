@@ -54,7 +54,7 @@
                     <h1 class="text-center text-xl text-gray-700">Mantente actualizado</h1>
                 </header>
 
-                <p class="text-sm text-gray-500">Mantente al día en todas las innovaciones tecnológicas de nuestra rama</p>
+                <p class="text-sm text-center text-gray-500">Mantente al día en todas las innovaciones tecnológicas de nuestra rama</p>
             </article>
         </div>
     </section>
