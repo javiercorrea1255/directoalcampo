@@ -21,7 +21,7 @@ class CourseAudiences extends Component
 
     public function render()
     {
-        return view('livewire.instructor.course-audiences');
+        return view('livewire.Instructor.course-audiences');
     }
 
     public function store() {
