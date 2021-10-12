@@ -23,7 +23,7 @@ class LessonDescription extends Component
 
     public function render()
     {
-        return view('livewire.instructor.lesson-description');
+        return view('livewire.Instructor.lesson-description');
     }
 
     public function store() {
