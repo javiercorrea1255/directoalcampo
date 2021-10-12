@@ -3,11 +3,11 @@
 @section('title', 'Course Free')
 
 @section('content_header')
-    <h1>Course Free - Admin Panel</h1>
+    <h1>Directo al Campo - Admin Panel</h1>
 @stop
 
 @section('content')
-    <p>Welcome to Course Free - Admin Panel</p>
+    <p>Bienvenido a la plataforma virtual de Directo al Campo</p>
 @stop
 
 @section('css')
