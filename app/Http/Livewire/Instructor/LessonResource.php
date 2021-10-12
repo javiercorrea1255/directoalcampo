@@ -20,7 +20,7 @@ class LessonResource extends Component
 
     public function render()
     {
-        return view('livewire.instructor.lesson-resource');
+        return view('livewire.Instructor.lesson-resource');
     }
 
     public function save() {
