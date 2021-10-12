@@ -1,3 +1,3 @@
 <x-app-layout>
-    @livewire('instructor.courses-index')
+    @livewire('Instructor.courses-index')
 </x-app-layout>
