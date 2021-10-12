@@ -21,7 +21,7 @@ class CourseGoals extends Component
 
     public function render()
     {
-        return view('livewire.instructor.course-goals');
+        return view('livewire.Instructor.course-goals');
     }
 
     public function store() {
