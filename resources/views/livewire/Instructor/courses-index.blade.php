@@ -3,7 +3,7 @@
 
         <div class="flex items-center px-6 py-4">
             <div class="flex-shrink-0 mr-3">
-                <a href="{{ route('instructor.courses.create') }}" class="btn btn-blue">Crear nuevo curso</a>
+                <a href="{{ route('instructor.courses.create') }}" class="btn btn-blue">Definir nuevo curso</a>
             </div>
             <input wire:model="search" wire:keydown="resetPage" type="text" class="form-input flex-1 shadow-sm" placeholder="Buscar...">
         </div>
@@ -11,9 +11,9 @@
         <table class="min-w-full divide-y divide-gray-200">
             <thead class="bg-gray-50">
                 <tr>
-                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nombre</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nombre del alumno</th>
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Matriculados</th>
-                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Calificación</th>
+                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Calificación del curso</th>
                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
                     <th scope="col" class="relative px-6 py-3">
                         <span class="sr-only">Edit</span>
