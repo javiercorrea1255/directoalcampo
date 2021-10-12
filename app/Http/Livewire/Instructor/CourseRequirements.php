@@ -21,7 +21,7 @@ class CourseRequirements extends Component
 
     public function render()
     {
-        return view('livewire.instructor.course-requirements');
+        return view('livewire.Instructor.course-requirements');
     }
 
     public function store() {
