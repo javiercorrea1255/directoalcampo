@@ -20,7 +20,7 @@ class CoursesIndex extends Component
                         ->latest('id')
                         ->paginate(8);
 
-        return view('livewire.instructor.courses-index', compact('courses'));
+        return view('livewire.Instructor.courses-index', compact('courses'));
     }
 
     public function resetPage() {
