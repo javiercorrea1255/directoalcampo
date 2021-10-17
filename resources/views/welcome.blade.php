@@ -82,4 +82,41 @@
         </div>
     </section>
 
+    <footer class="py-12 bg-blue-700 text-center text-white">
+     
+
+      <div class="py-12">
+
+    
+
+        <ul class="list-inline text-center">
+            <li class="list-inline-item">
+                <a href="https://www.facebook.com/DirectoalCampoMX" target="_blank" class="text-white">
+                    <i class="fab fa-2x fa-facebook" style="cursor:pointer;"></i>
+                </a>
+            </li>
+            <li class="list-inline-item"></li>
+            <li class="list-inline-item">
+                <a href="https://twitter.com/" target="_blank" class="text-white">
+                    <i class="fab fa-2x fa-twitter" style="cursor:pointer;"></i>
+                </a>
+            </li>
+            <li class="list-inline-item"></li>
+            <li class="list-inline-item">
+                <a href="https://www.instagram.com/" target="_blank" class="text-white">
+                    <i class="fab fa-2x fa-instagram" style="cursor:pointer;"></i>
+                </a>
+            </li>
+            <li class="list-inline-item"></li>
+    </ul>
+</div>
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="py-12">directoalcampo.org | Todos los Derechos Reservados</p>
+    <a href="{{ route('privacidad') }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none">Aviso de Privacidad</a>
+   
+</div>
+    </footer>
+
 </x-app-layout>
+
