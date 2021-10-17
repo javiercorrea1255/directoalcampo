@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\BillingController;
 use App\Http\Livewire\PaymentOrder;
+use App\Http\Controllers\AvisoPrivacidad;
 
 
 use App\Http\Livewire\CourseStatus;
@@ -37,5 +38,7 @@ Route::post('courses/{course}/enrolled', [CourseController::class, 'enrolled'])-
 Route::get('course-status/{course}', CourseStatus::class)->name('courses.status')->middleware('auth');
 
 Route:: get('courses/{course}/payment', PaymentOrder::class)->name('order.payment');
+
+Route:: get('privacidad', AvisoPrivacidad::class)->name('privacidad');
 
 
