@@ -30,7 +30,9 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             <article>
                 <figure>
+                    <a class="card-img" href="https://directoalcampo.org/courses">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/sombrero.jpg') }}" alt="">
+                </a>
                 </figure>
                 <header class="mt-2">
                     <h1 class="text-center text-xl text-gray-700">Cursos de capacitación presencial</h1>
@@ -40,7 +42,7 @@
             </article>
             <article>
                 <figure>
-                    <a class="card-img" href="https://directoalcampo.org/cursos">
+                    <a class="card-img" href="https://directoalcampo.org/courses">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/tablet.jpg') }}" alt="">
                 </a>
                 <header class="mt-2">
@@ -51,7 +53,9 @@
             </article>
             <article>
                 <figure>
+                    <a class="card-img" href="https://directoalcampo.org/courses">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/infor.jpg') }}" alt="">
+                </a>
                 </figure>
                 <header class="mt-2">
                     <h1 class="text-center text-xl text-gray-700">Consultoría</h1>
@@ -61,7 +65,9 @@
             </article>
             <article>
                 <figure>
+                    <a class="card-img" href="https://directoalcampo.org/courses">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/drones-agricultura.jpeg') }}" alt="">
+                </a>
                 </figure>
                 <header class="mt-2">
                     <h1 class="text-center text-xl text-gray-700">Mantente actualizado</h1>
