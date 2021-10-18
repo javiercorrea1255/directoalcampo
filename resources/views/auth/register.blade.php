@@ -10,23 +10,8 @@
             @csrf
 
             <div>
-                <x-jet-label for="name" value="{{ __('Nombre') }}" />
+                <x-jet-label for="name" value="{{ __('Nombre Completo') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
-            </div>
-
-            <div class="mt-4">
-                <x-jet-label for="fatherlastname" value="{{ __('Apellido Paterno') }}" />
-                <x-jet-input id="fatherlastname" class="block mt-1 w-full" type="text" name="fatherlastname" required autocomplete="fatherlastname" />
-            </div>
-
-            <div class="mt-4">
-                <x-jet-label for="motherlastname" value="{{ __('Apellido Materno') }}" />
-                <x-jet-input id="motherlastname" class="block mt-1 w-full" type="text" name="motherlastname" required autocomplete="motherlastname" />
-            </div>
-
-            <div class="mt-4">
-                <x-jet-label for="telephone" value="{{ __('Teléfono') }}" />
-                <x-jet-input id="telephone" class="block mt-1 w-full" type="number" name="telephone" required autocomplete="telephone" />
             </div>
 
            
