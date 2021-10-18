@@ -143,7 +143,7 @@
 		<a href="#"><img src="img/youtube.png" alt="youtube"></a>
 		<a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
 		<a href="#"><img src="img/instagram.png" alt="instagram"></a>
-        <a href="#"><img src="img/twitter.png" alt="twitter"></a>
+       
 	</div>
 
 </x-app-layout>
