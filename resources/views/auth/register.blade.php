@@ -14,6 +14,16 @@
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             </div>
            
+            <div>
+                <x-jet-label for="lastname" value="{{ __('Apellido') }}" />
+                <x-jet-input id="lastname" class="block mt-1 w-full" type="text" name="lastname" :value="old('lastname')" required autofocus autocomplete="lastname" />
+            </div>
+
+            <div>
+                <x-jet-label for="telephone" value="{{ __('Teléfono') }}" />
+                <x-jet-input id="telephone" class="block mt-1 w-full" type="number" name="telephone" :value="old('telephone')" required autofocus autocomplete="telephone" size=10/>
+            </div>
+           
 
             <div class="mt-4">
                 <x-jet-label for="email" value="{{ __('Correo Electrónico') }}" />
