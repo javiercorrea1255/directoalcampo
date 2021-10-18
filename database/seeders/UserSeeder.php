@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
                     'name' => 'Javier de Jesús',
                     'fatherlastname'=>'Correa',
                     'motherlastname'=>'Islas',
-                    'telephone'=>'5541561924'
+                    'telephone'=>'5541561924',
                     'email' => 'javis_1255@hotmail.com',
                     'password' => bcrypt('1010235-4')
                 ]);
