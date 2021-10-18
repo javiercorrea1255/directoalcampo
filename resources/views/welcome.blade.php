@@ -139,7 +139,7 @@
 	</div>
 
 	<div class="social">
-		<a href="#"><img src="img/facebook.png" alt="facebook"></a>
+		<a href="#" size=50px><img src="img/facebook.png" alt="facebook"></a>
 		<a href="#"><img src="img/youtube.png" alt="youtube"></a>
 		<a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
 		<a href="#"><img src="img/instagram.png" alt="instagram"></a>
