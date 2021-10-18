@@ -134,17 +134,7 @@
 </div>
     </footer>
 
-    <div class="container">
-		<!-- (p>lorem)*20 (código a usar si tienes instalada la extensión emmet)-->
-	</div>
-
-	<div class="social">
-		<a href="#" ><img size="50px" src="img/facebook.png" alt="facebook"></a>
-		<a href="#"><img src="img/youtube.png" alt="youtube"></a>
-		<a href="#"><img src="img/linkedin.png" alt="linkedin"></a>
-		<a href="#"><img src="img/instagram.png" alt="instagram"></a>
-       
-	</div>
+  
 
 </x-app-layout>
 
