@@ -40,8 +40,9 @@
             </article>
             <article>
                 <figure>
-                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/tablet.jpg') }}" alt="">}
-                    <a href="chapingo.mx"></a>
+                    <a class="card-img" href="https://directoalcampo.org/cursos">
+                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/tablet.jpg') }}" alt="">
+                </a>
                 <header class="mt-2">
                     <h1 class="text-center text-xl text-gray-700">Capacitación virtual</h1>
                 </header>
