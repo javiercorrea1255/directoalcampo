@@ -12,7 +12,7 @@
 <x-app-layout>
 
     {{-- Cover --}}
-    <section class="bg-cover bg-center" style="background-image: url('{{ asset('img/home/tea-g47fbbe79b_1280.jpg') }}');">
+    <section class="bg-cover bg-center" style="background-image: url('{{ asset('img/home/countryside-g7fd4a2b25_1280.jpg') }}');">
         <div class="max-w-7xl mx-auto px-4 py-36 sm:px-6 lg:px-8 text-white">
             <div class="w-full md:w-3/4 lg:w-1/2">
                 <h1 class="font-bold text-4xl">Bienvenido a Directo al Campo</h1>
