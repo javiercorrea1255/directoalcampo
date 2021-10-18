@@ -10,6 +10,11 @@
             'route' => route('courses.index'),
             'active' => request()->routeIs('courses.*'),
         ]
+        [
+            'name' => 'Contáctanos',
+            'url' => href="https://directoalcampo.org/courses",
+            'active' => request()->routeIs('courses.*'),
+        ]
     ]
 @endphp
 
