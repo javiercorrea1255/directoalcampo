@@ -139,6 +139,15 @@
         </div>
     </section>
 
+    <div class="col-12 col-md-6 col-lg-7">
+        <h2 class="text-center text-md-left">¿Qué es Directo al Campo?</h2>
+        <p>Coders Free es una iniciativa por promover el conocimiento del sector agrícola a través de las nuevas tecnologías.</p><p>Nuestro objetivo es darte todas las herramientas necesarias para mantenerte actualizado en lo último del sector agropecuario, al menor costo y a tu ritmo</p>
+    </div>
+
+    <div class="col-8 col-md-6 col-lg-4 col-xl-3 offset-lg-1 mt-5">
+        <img class="img-fluid" src="{{ asset('img/home/campo.jpg') }}" alt="">
+    </div>
+
     <footer class="py-12 bg-blue-700 text-center text-white">
      
 
