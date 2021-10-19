@@ -21,7 +21,7 @@
             </div>
  
             <div class="card my-8 mx-12 p-4 text-sm text-blue-300">El presente pago está a cargo de la pasarela de Pago 'Paypal, cualquier duda, queja o responsabilidad en la gestión y aprobación de los pagos debe ser aclarada con Paypal, no con Directoalcampo.org.
-                <a href="" class="text-red-300 font-bold">Termos e Condições</a>
+                <a href="" class="text-red-300 font-bold">Términos y condiciones</a>
             </div>
         </div>
     </div>
