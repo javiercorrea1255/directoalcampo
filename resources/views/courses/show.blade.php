@@ -111,6 +111,7 @@
                                 <a href="{{ route('payment.checkout', $course) }}" class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Comprar curso</a>
                             @endif
                         @endcan
+                            <a href="{{ route('payment.checkout', $course) }}" class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Informes/Compra mediante transferencia bancaria</a>
                     </div>
                 </section>
 
