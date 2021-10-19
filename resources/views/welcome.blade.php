@@ -98,6 +98,47 @@
         </div>
     </section>
 
+    <section class="ventajas my-5 pt-5 bg-gris text-secondary">
+
+        <div class="container">
+
+            <h1 class="text-center h2 mb-4">VENTAJAS</h1>
+            
+            <div class="row">
+                
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <div class="card h-100 shadow">
+                        <article class="card-body">
+                            <i class="fas fa-laptop-code text-info d-block text-center mb-2" style="font-size:32px"></i>
+                            <h1 class="mt-0 text-center h5">Cursos gratuitos</h1>
+                            <p class="text-center">Una amplia variedad de cursos de desarrolo web gratis y en español</p>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <div class="card h-100 shadow">
+                        <article class="card-body">
+                            <i class="far fa-clock text-info d-block text-center mb-2" style="font-size:32px"></i>
+                            <h1 class="mt-0 text-center h5">A tu propio ritmo</h1>
+                            <p class="text-center">Estudia en tus tiempos libres y desde donde estés, con nuestros cursos online.</p>
+                        </article>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-sm-6 col-md-4 mb-5">
+                    <div class="card h-100 shadow">
+                        <article class="card-body">
+                            <i class="fas fa-chalkboard-teacher text-info d-block text-center mb-2" style="font-size:32px"></i>
+                            <h1 class="mt-0 text-center h5">Precios accesibles</h1>
+                            <p class="text-center">Hemos recopilado los cursos más actualizados y a los mejores precios del sector</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="py-12 bg-blue-700 text-center text-white">
      
 
