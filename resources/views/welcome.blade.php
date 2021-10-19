@@ -99,7 +99,7 @@
     </section>
 
     <section class="py-12 bg-blue-700 text-center text-white">
-        <h1 class="text-3xl mb-3">Ventajas</h1>
+        <h1 class="font-bold text-4xl mb-3">Ventajas</h1>
     </section>
 
     <section class="ventajas my-5 pt-5 bg-gris text-secondary">
@@ -144,7 +144,7 @@
     </section>
 
     <section class="py-12 bg-blue-700 text-center text-white">
-        <h1 class="text-3xl mb-3 font bold">¿Qué es Directo al Campo?</h1>
+        <h1 class=" mb-3 font-bold text-4xl">¿Qué es Directo al Campo?</h1>
     </section>
 
     <section class="informacion mt-5 pb-5 text-secondary">
