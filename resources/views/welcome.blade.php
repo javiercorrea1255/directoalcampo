@@ -153,7 +153,7 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-12 col-md-6 col-lg-7">
-                    <p class="">Directo al Campo es una iniciativa por promover el conocimiento científico y técnico del sector agropecuario, nuestro objetivo es que nuestros usuarios tengan acceso a los cursos más actuales del sector agrícola al menor costo e incluso, de manera gratuita</p>
+                    <p class="justify-content-center">Directo al Campo es una iniciativa por promover el conocimiento científico y técnico del sector agropecuario, nuestro objetivo es que nuestros usuarios tengan acceso a los cursos más actuales del sector agrícola al menor costo e incluso, de manera gratuita</p>
                 </div>
 
                 <div class="centrado col-8 col-md-6 col-lg-4 col-xl-3 offset-lg-1 mt-5">
