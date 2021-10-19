@@ -31,7 +31,7 @@
     </div>
 
         
-
+    <script src="https://sdk.mercadopago.com/js/v2"></script>
     <script src="https://www.paypal.com/sdk/js?client-id={{config('services.paypal.client_id')}}&currency=MXN"></script>
 
   
