@@ -17,11 +17,10 @@
                         <p>CONFIRMAR COMPRA</p>
                         <i class="fab fa-cc-paypal text-4xl ml-2"></i>
                     </div>
-
-                    <DIV>
-                        <a href="{{ route('payment.checkout', $course) }}" class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Compra Directa Mediante WhatsApp y Transferencia Bancaria</a>
-                    </DIV>
                 </a>
+                <DIV>
+                    <a href="{{ route('payment.checkout', $course) }}" class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Compra Directa Mediante WhatsApp y Transferencia Bancaria</a>
+                </DIV>
             </div>
  
             <div class="card my-8 mx-12 p-4 text-sm text-blue-300">El presente pago está a cargo de la pasarela de Pago 'Paypal, cualquier duda, queja o responsabilidad en la gestión y aprobación de los pagos debe ser aclarada con Paypal, no con Directoalcampo.org.
