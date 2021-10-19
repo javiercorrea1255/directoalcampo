@@ -14,12 +14,12 @@
             <div class="flex justify-end">
                 <a href="{{route('payment.pay', $course)}}" class="btn btn-info">
                     <div class="flex items-center">
-                        <p>CONFIRMAR COMPRA</p>
+                        <p>Comprar mediante PayPal</p>
                         <i class="fab fa-cc-paypal text-4xl ml-2"></i>
                     </div>
                 </a>
-                <DIV>
-                    <a href="{{ route('payment.checkout', $course) }}" class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Compra Directa Mediante WhatsApp y Transferencia Bancaria</a>
+                <DIV class="flex items-center">
+                    <a href='https://wa.me/message/7RJ2PATTDN64P1' class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Comprar mediante Transferencia Bancaria</a>
                 </DIV>
             </div>
  
