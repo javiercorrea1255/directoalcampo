@@ -12,7 +12,7 @@
             </article>
  
             <div class="flex justify-end">
-                <a href="{{route('payment.pay', $course)}}" class="btn btn-info">
+                <a href="{{route('payment.pay', $course)}}" class="btn btn-blue btn-block flex justify-between mt-4">
                     <div class="flex items-center">
                         <p>Comprar mediante PayPal</p>
                         <i class="fab fa-cc-paypal text-4xl ml-2"></i>
@@ -23,7 +23,7 @@
                 </DIV>
             </div>
  
-            <div class="card my-8 mx-12 p-4 text-sm text-blue-300">El presente pago está a cargo de la pasarela de Pago 'Paypal, cualquier duda, queja o responsabilidad en la gestión y aprobación de los pagos debe ser aclarada con Paypal, no con Directoalcampo.org.
+            <div class="card my-8 mx-12 p-4 text-sm text-blue-300">Los pagos ejecutados mediante la pasarela de Pago 'Paypal' depositan en ellos la responsabilidad de su ejecución y aprobación.
                 <a href="" class="text-red-300 font-bold">Términos y condiciones</a>
             </div>
         </div>
