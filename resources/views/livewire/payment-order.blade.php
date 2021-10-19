@@ -49,7 +49,7 @@ $preference = new MercadoPago\Preference();
 $item = new MercadoPago\Item();
 $item->title = 'mi producto'
 $item->quantity = 1;
-$item->unit_price = 10;
+$item->unit_price = '10';
 $preference->items = array($item);
 $preference->save();
 ?>
