@@ -37,23 +37,25 @@
 
   
     <script>
-        paypal.Buttons({
-  
-          // Sets up the transaction when a payment button is clicked
-          createOrder: function(data, actions) {
-            return actions.order.create({
-              purchase_units: [{
+
+paypal.Buttons({
+    createOrder: function(data, actions) {
+        return actions.order.create({
+            // ...
+            purchase_units: [{
                 amount: {
-                  value: {{$course->price->value}} // Can reference variables or functions. Example: `value: document.getElementById('...').value`
+                    value: {{$course->price->value}}
                 }
-              }]
-            });
-          },
-  
-          // Finalize the transaction after payer approval
-          onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
+            }],
+        });
+    },
+    onApprove: function(data, actions) {
+      return actions.order.capture().then(function(details) {
                         Livewire.emit('buyCourse', details)
+    }
+}).render('#paypal-button-container'); 
+      
+            
               
               
                 // Successful capture! For dev/demo purposes:
