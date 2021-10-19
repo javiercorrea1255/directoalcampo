@@ -1,6 +1,8 @@
 <?php
  
 use Illuminate\Support\Facades\Route;
-use App\Http\Livewire\PaymentOrder; 
+use App\Http\Controllers\PaymentController;
  
-Route::get('{course}/checkout', PaymentOrder::class)->name('checkout');
+Route::get('{course}/checkout', [PaymentController::class, 'checkout'])->name('checkout');
+ 
+Route::get('{course}/pay', [PaymentController::class, 'pay'])->name('pay');
