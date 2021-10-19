@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Directo al</b>Campo',
+    'logo' => '<b>Directo al</b> Campo',
     'logo_img' => 'vendor/adminlte/dist/img/dc.jpg',
     'logo_img_class' => 'brand-image img-circle elevation-1',
     'logo_img_xl' => null,
