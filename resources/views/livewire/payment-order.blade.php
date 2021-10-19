@@ -34,7 +34,7 @@
 
     
     
-    <script src="https://www.paypal.com/sdk/js?client-id={{config('services.paypal.client_id')}}&components=YOUR_COMPONENTS"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id={{config('services.paypal.client_id')}}&components=buttons"></script>
     
     <script>
         paypal.Buttons({
