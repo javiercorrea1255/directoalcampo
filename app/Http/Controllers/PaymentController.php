@@ -19,6 +19,9 @@ class PaymentController extends Controller
                 config('services.paypal.client_secret')      // ClientSecret
             )
         );
+        $apiContext->setConfig([
+            'mode' => 'live',
+           ]);
  
         // After Step 2
         $payer = new \PayPal\Api\Payer();
@@ -26,7 +29,7 @@ class PaymentController extends Controller
  
         $amount = new \PayPal\Api\Amount();
         $amount->setTotal($course->price->value);
-        $amount->setCurrency('BRL');
+        $amount->setCurrency('MXN');
  
         $transaction = new \PayPal\Api\Transaction();
         $transaction->setAmount($amount);
