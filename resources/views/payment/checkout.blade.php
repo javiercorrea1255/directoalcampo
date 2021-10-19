@@ -17,6 +17,10 @@
                         <p>CONFIRMAR COMPRA</p>
                         <i class="fab fa-cc-paypal text-4xl ml-2"></i>
                     </div>
+
+                    <DIV>
+                        <a href="{{ route('payment.checkout', $course) }}" class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Compra Directa Mediante WhatsApp y Transferencia Bancaria</a>
+                    </DIV>
                 </a>
             </div>
  
