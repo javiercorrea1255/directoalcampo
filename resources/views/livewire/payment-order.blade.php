@@ -10,7 +10,8 @@
                     MXN$ {{number_format($course->price->value, 2, ',', '.')}}
 
                 </p>
-                <div id="paypal-button-container"></div>
+                // SDK MercadoPago.js V2
+                <script src="https://sdk.mercadopago.com/js/v2"></script>
             </article>
  
             <div class="flex justify-end">
@@ -30,45 +31,44 @@
         </div>
     </div>
 
-        
-    <script src="https://sdk.mercadopago.com/js/v2"></script>
-    <script src="https://www.paypal.com/sdk/js?client-id={{config('services.paypal.client_id')}}&currency=MXN"></script>
+    <div>
 
-  
-    <script>
-        paypal.Buttons({
-  
-          // Sets up the transaction when a payment button is clicked
-          createOrder: function(data, actions) {
-            return actions.order.create({
-              purchase_units: [{
-                amount: {
-                  value: {{$course->price->value}} // Can reference variables or functions. Example: `value: document.getElementById('...').value`
-                }
-              }]
-            });
-          },
-  
-          // Finalize the transaction after payer approval
-          onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-                        Livewire.emit('buyCourse', details)
-              
-              
-                // Successful capture! For dev/demo purposes:
-                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                  var transaction = orderData.purchase_units[0].payments.captures[0];
-                  alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
-  
-              // When ready to go live, remove the alert and show a success message within this page. For example:
-              // var element = document.getElementById('paypal-button-container');
-              // element.innerHTML = '';
-              // element.innerHTML = '<h3>Thank you for your payment!</h3>';
-              // Or go to another URL:  actions.redirect('thank_you.html');
-            });
-          }
-        }).render('#paypal-button-container');
-  
+   
+    <?php
+    // SDK de Mercado Pago
+    require __DIR__ .  '/vendor/autoload.php';
+    // Agrega credenciales
+    MercadoPago\SDK::setAccessToken('PROD_ACCESS_TOKEN');
+    ?>
+
+<?php
+// Crea un objeto de preferencia
+$preference = new MercadoPago\Preference();
+
+// Crea un ítem en la preferencia
+$item = new MercadoPago\Item();
+$item->title = {{$course->name}};
+$item->quantity = 1;
+$item->unit_price = {{$course->price->value}};
+$preference->items = array($item);
+$preference->save();
+?>
+     </div>
+
+     <script>
+      // Agrega credenciales de SDK
+        const mp = new MercadoPago('PUBLIC_KEY', {
+              locale: 'es-AR'
+        });
+      
+        // Inicializa el checkout
+        mp.checkout({
+            preference: {
+                id: 'YOUR_PREFERENCE_ID'
+            },
+            render: {
+                  container: '.cho-container', // Indica el nombre de la clase donde se mostrará el botón de pago
+                  label: 'Pagar', // Cambia el texto del botón de pago (opcional)
+            }
+      });
       </script>
-
-</div>
