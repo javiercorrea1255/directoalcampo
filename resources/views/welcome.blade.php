@@ -157,7 +157,7 @@
                 </div>
 
                 <div class="center col-8 col-md-6 col-lg-4 col-xl-3 offset-lg-1 mt-5">
-                    <img class="img-fluid" src="{{ asset('img/home/campo.jpg') }}" alt="">
+                    <img class="text-center img-fluid" src="{{ asset('img/home/campo.jpg') }}" alt="">
                 </div>
                 
             </div>
