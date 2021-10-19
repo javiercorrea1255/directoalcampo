@@ -139,6 +139,11 @@
         </div>
     </section>
 
+    <section class="py-12 bg-blue-700 text-center text-white">
+        
+       
+    </section>
+
     <section class="informacion mt-5 pb-5 text-secondary">
 
         <div class="container">
