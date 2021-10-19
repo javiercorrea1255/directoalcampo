@@ -10,8 +10,7 @@
                     MXN$ {{number_format($course->price->value, 2, ',', '.')}}
 
                 </p>
-                // SDK MercadoPago.js V2
-                <script src="https://sdk.mercadopago.com/js/v2"></script>
+                <div id="paypal-button-container"></div>
             </article>
  
             <div class="flex justify-end">
@@ -25,50 +24,52 @@
                 </a>
             </div>
  
-            <div class="card my-8 mx-12 p-4 text-sm text-blue-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor molestias soluta id accusamus qui quibusdam suscipit fugiat possimus harum molestiae.
+            <div class="card my-8 mx-12 p-4 text-sm text-blue-600">El presente pago está a cargo de la pasarela de Pago 'Paypal, cualquier duda, queja o responsabilidad en la gestión y aprobación de los pagos debe ser aclarada con Paypal, no con Directoalcampo.org'.
                 <a href="" class="text-red-500 font-bold">Términos y Condiciones</a>
             </div>
         </div>
     </div>
 
-    <div>
+        aqui
+        
 
-   
-    <?php
-    // SDK de Mercado Pago
-    require __DIR__ .  '/vendor/autoload.php';
-    // Agrega credenciales
-    MercadoPago\SDK::setAccessToken('PROD_ACCESS_TOKEN');
-    ?>
+    <script src="https://www.paypal.com/sdk/js?client-id={{config('services.paypal.client_id')}}&currency=MXN"></script>
 
-<?php
-// Crea un objeto de preferencia
-$preference = new MercadoPago\Preference();
-
-// Crea un ítem en la preferencia
-$item = new MercadoPago\Item();
-$item->title = 'Mi producto';
-$item->quantity = 1;
-$item->unit_price = 75.56;
-$preference->items = array($item);
-$preference->save();
-?>
-     </div>
-
-     <script>
-      // Agrega credenciales de SDK
-        const mp = new MercadoPago('PUBLIC_KEY', {
-              locale: 'es-AR'
-        });
-      
-        // Inicializa el checkout
-        mp.checkout({
-            preference: {
-                id: 'YOUR_PREFERENCE_ID'
-            },
-            render: {
-                  container: '.cho-container', // Indica el nombre de la clase donde se mostrará el botón de pago
-                  label: 'Pagar', // Cambia el texto del botón de pago (opcional)
-            }
-      });
+  
+    <script>
+        paypal.Buttons({
+  
+          // Sets up the transaction when a payment button is clicked
+          createOrder: function(data, actions) {
+            return actions.order.create({
+              purchase_units: [{
+                amount: {
+                  value: {{$course->price->value}} // Can reference variables or functions. Example: `value: document.getElementById('...').value`
+                }
+              }]
+            });
+          },
+  
+          // Finalize the transaction after payer approval
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+                        Livewire.emit('buyCourse', details)
+              
+              
+                // Successful capture! For dev/demo purposes:
+                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                  var transaction = orderData.purchase_units[0].payments.captures[0];
+                  alert('Transaction '+ transaction.status + ': ' + transaction.id + '\n\nSee console for all available details');
+  
+              // When ready to go live, remove the alert and show a success message within this page. For example:
+              // var element = document.getElementById('paypal-button-container');
+              // element.innerHTML = '';
+              // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+              // Or go to another URL:  actions.redirect('thank_you.html');
+            });
+          }
+        }).render('#paypal-button-container');
+  
       </script>
+
+</div>
