@@ -19,7 +19,7 @@
                     </div>
                 </a>
                 <DIV class="flex items-center">
-                    <a href='https://wa.me/message/7RJ2PATTDN64P1' class="btn btn-blue btn-block flex justify-between mt-4">MXN$ {{ $course->price->value }} - Comprar mediante Transferencia Bancaria</a>
+                    <a href='https://wa.me/message/7RJ2PATTDN64P1' class="btn btn-green btn-block flex justify-between mt-4"> Comprar mediante Transferencia Bancaria</a>
                 </DIV>
             </div>
  
