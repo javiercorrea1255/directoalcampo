@@ -47,7 +47,7 @@ $preference = new MercadoPago\Preference();
 
 // Crea un ítem en la preferencia
 $item = new MercadoPago\Item();
-$item->title = {{$course->name}};
+$item->title = 'mi producto'
 $item->quantity = 1;
 $item->unit_price = {{$course->price->value}};
 $preference->items = array($item);
