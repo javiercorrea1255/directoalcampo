@@ -98,13 +98,15 @@
         </div>
     </section>
 
-    <section class="py-12 bg-blue-700 text-center text-white"></section>
+    <section class="py-12 bg-blue-700 text-center text-white">
+        <h1 class="text-3xl mb-3">VENTAJAS</h1>
+    </section>
 
     <section class="ventajas my-5 pt-5 bg-gris text-secondary">
 
         <div class="container">
 
-            <h1 class="text-center text-gray-600 text-3xl mb-5 font-bold">VENTAJAS</h1>
+        
             
             <div class="row">
                 
@@ -141,7 +143,9 @@
         </div>
     </section>
 
-    <section class="py-12 bg-blue-700 text-center text-white"></section>
+    <section class="py-12 bg-blue-700 text-center text-white">
+        <h1 class="text-3xl mb-3">¿Qué es Directo al Campo?</h1>
+    </section>
 
     <section class="informacion mt-5 pb-5 text-secondary">
 
@@ -149,7 +153,6 @@
             <div class="row justify-content-center align-items-center">
 
                 <div class="col-12 col-md-6 col-lg-7">
-                    <h2 class="text-center text-md-left">¿Qué es Directo al Campo?</h2>
                     <p>Directo al Campo es una iniciativa por promover el conocimiento informático, con todas las personas que están iniciándose en el mundo de la programación pero no tiene los recursos para poder contratar un curso, tal y como me pasó a mi.</p><p>Nuestro objetivo es darte todas las herramientas necesarias para que puedas conseguir empleo en eso que tanto te gusta, y si luego, quieres apoyar nuestro esfuerzo, será totalmente bienvenido</p>
                 </div>
 
