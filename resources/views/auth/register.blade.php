@@ -40,8 +40,8 @@
 
                             <div class="ml-2">
                                 {!! __('Acepto los :términos_y_condiciones y la :política_de_privacidad', [
-                                        'términos_y_condiciones' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Terms of Service').'</a>',
-                                        'política_de_privacidad' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Privacy Policy').'</a>',
+                                        'términos_y_condiciones' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Términos y condiciones').'</a>',
+                                        'política_de_privacidad' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Política de privacidad').'</a>',
                                 ]) !!}
                             </div>
                         </div>
