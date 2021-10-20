@@ -10,10 +10,36 @@
             @csrf
 
             <div>
-                <x-jet-label for="name" value="{{ __('Nombre Completo') }}" />
+                <x-jet-label for="name" value="{{ __('Nombre(s)') }}" />
                 <x-jet-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             </div>
 
+            <div>
+                <x-jet-label for="apellido_paterno" value="{{ __('Apellido Paterno') }}" />
+                <x-jet-input id="apellido_paterno" class="block mt-1 w-full" type="text" name="apellido_paterno" :value="old('apellido_paterno')" required autofocus autocomplete="apellido_paterno" />
+            </div>
+
+            <div>
+                <x-jet-label for="apellido_materno" value="{{ __('Apellido Materno') }}" />
+                <x-jet-input id="apellido_materno" class="block mt-1 w-full" type="text" name="apellido_materno" :value="old('apellido_materno')" required autofocus autocomplete='apellido_materno' />
+            </div>
+
+            <div>
+                <x-jet-label for="telefono" value="{{ __('Teléfono') }}" />
+                <x-jet-input id="telefono" class="block mt-1 w-full" type="number" name="telefono" :value="old('telefono')" required autofocus autocomplete='telefono' />
+            </div>
+        
+            <div>
+                <x-jet-label for="carrera" value="{{ __('Carrera') }}" />
+                <x-jet-input id="carrera" class="block mt-1 w-full" type="text" name="carrera" :value="old('carrera')" required autofocus autocomplete='carrera' />
+            </div>
+
+            <div>
+                <x-jet-label for="ocupacion" value="{{ __('Ocupación') }}" />
+                <x-jet-input id="ocupacion" class="block mt-1 w-full" type="text" name="ocupacion" :value="old('ocupacion')" required autofocus autocomplete='ocupacion' />
+            </div>
+
+           
            
             <div class="mt-4">
                 <x-jet-label for="email" value="{{ __('Correo Electrónico') }}" />
