@@ -122,9 +122,7 @@
                                     Perfil
                                 </x-jet-dropdown-link>
 
-                                <x-jet-dropdown-link href="{{ route('billing.index') }}">
-                                   Facturación
-                                </x-jet-dropdown-link>
+                             
 
                                 @can('Ver cursos')
                                     <x-jet-dropdown-link href="{{ route('instructor.courses.index') }}">
@@ -153,7 +151,7 @@
                                     <x-jet-dropdown-link href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                     this.closest('form').submit();">
-                                        {{ __('Logout') }}
+                                        {{ __('Salir ahora') }}
                                     </x-jet-dropdown-link>
                                 </form>
                             </x-slot>
@@ -210,9 +208,7 @@
                     Perfil
                 </x-jet-responsive-nav-link>
 
-                <x-jet-responsive-nav-link href="{{ route('billing.index') }}" :active="request()->routeIs('billing.index')">
-                    Facturación
-                </x-jet-responsive-nav-link>
+            
 
                 @can('Ver cursos')
                     <x-jet-responsive-nav-link href="{{ route('instructor.courses.index') }}" :active="request()->routeIs('instructor.courses.index')">
