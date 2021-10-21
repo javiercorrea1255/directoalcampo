@@ -1,5 +1,5 @@
 <div>
-    <h1 class="font-bold text-xl mb-4">Comentarios del curso</h1>
+    <h1 class="font-bold text-xl mb-4">Preguntas del curso</h1>
 
     @can('enrolled', $course)
         
@@ -8,7 +8,7 @@
                     <img class="h-10 w-10 object-cover rounded-full shadow select-none" src="{{ auth()->user()->profile_photo_url }}" alt="Dr. Gordon Emard">
                 </figure>
                 <div class="flex-1 bg-gray-50 rounded shadow-inner p-3">
-                    <textarea wire:model="comment" rows="3" class="form-input" placeholder="Escriba una reseña del curso..."></textarea>
+                    <textarea wire:model="comment" rows="3" class="form-input" placeholder="Escriba una pregunta o comentario de sobre el curso"></textarea>
                 </div>
             </div>
             <hr class="my-8">
