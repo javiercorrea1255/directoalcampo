@@ -19,4 +19,12 @@ class CoursesComents extends Component
 
         return view('livewire.courses-coments', compact('course'));
     }
+
+    public funcion store(){
+        $course= Course::find($this->course_id);
+        $course->reviews()->create([
+            'comment' => $this->comment,
+            'use_id' => auth()->user()->id
+        ]);
+    }
 }
