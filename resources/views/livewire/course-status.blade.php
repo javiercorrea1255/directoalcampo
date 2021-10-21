@@ -119,5 +119,7 @@
             </div>
         </div>
     </section>
-    @livewire('courses-coments', ['course' => $course])
+    <div class="flex justify-between items-center mt-5">
+        @livewire('courses-coments', ['course' => $course])
+    </div>
 </div>
