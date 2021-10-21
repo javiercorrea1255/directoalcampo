@@ -25,7 +25,7 @@ class CoursesComents extends Component
 
         $course->reviews()->create([
             'comment' => $this->comment,
-            'user_id'=> auth()->users()->id
+            'user_id'=> auth()->user()->id
         ]);
     }
     
