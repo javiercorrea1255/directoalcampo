@@ -119,7 +119,7 @@
             </div>
         </div>
     </section>
+    <a href='https://www.facebook.com/groups/203605471849154/' class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none">Únete a nuestro foro de preguntas en Facebook</a>
     
-   
     
 </div>
