@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 use App\Models\Course;
+use App\Models\Comment;
 use Livewire\Component;
 
 class CoursesComents extends Component
@@ -23,7 +24,7 @@ class CoursesComents extends Component
     public function store(){
         $course = Course::find($this->course_id);
 
-        $course->comments()->create([
+        $course->comment()->create([
             'comment' => $this->comment,
             'user_id'=> auth()->user()->id
         ]);
