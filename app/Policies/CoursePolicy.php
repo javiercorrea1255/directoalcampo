@@ -48,18 +48,6 @@ class CoursePolicy
         }
     }
 
-    public function valued(User $user, Course $course) {
-        if (Review::where('user_id', $user->id)->where('course_id', $course->id)->count()) {
-            return false;
-        } else {
-            return true;
-        }
-    }
-
-    public function unenrolled(User $user, Course $course)
-{
-    return ! $course->students->contains($user->id);
-}
-
+    
 
 }

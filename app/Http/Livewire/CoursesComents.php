@@ -6,7 +6,7 @@ use Livewire\Component;
 
 class CoursesComents extends Component
 {
-    public $course_id;
+    public $course_id, $comment;
 
     public function mount(Course $course){
         $this->course_id =$course->id;
@@ -20,5 +20,13 @@ class CoursesComents extends Component
         return view('livewire.courses-coments', compact('course'));
     }
 
+    public function store(){
+        $course = Course::find($this->course_id);
+
+        $course->reviews()->create([
+            'comment' => $this->comment,
+            'user_id'=> auth()->users()->id
+        ]);
+    }
     
 }
