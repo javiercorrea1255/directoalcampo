@@ -56,8 +56,8 @@
                 </div>
             </div>
 
-            @livewire('courses-coments', ['course' => $course])
             
+
             <div>
                 <div class="card mb-4">
                     <div class="card-body">
@@ -119,4 +119,5 @@
             </div>
         </div>
     </section>
+    @livewire('courses-coments', ['course' => $course])
 </div>
