@@ -120,6 +120,6 @@
         </div>
     </section>
     
-        @livewire('courses-coments', ['course' => $course])
+   
     
 </div>
