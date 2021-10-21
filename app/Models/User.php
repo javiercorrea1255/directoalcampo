@@ -84,7 +84,7 @@ class User extends Authenticatable
     }
 
     public function preguntas() {
-        return $this->hasMany('App\Models\Review');
+        return $this->hasMany('App\Models\'Preguntas');
     }
 
     public function comments() {
