@@ -22,7 +22,7 @@ class CoursesComents extends Component
 
     public funcion store(){
         $course= Course::find($this->course_id);
-        $course->reviews()->create([
+        $course->coments()->create([
             'comment' => $this->comment,
             'use_id' => auth()->user()->id
         ]);
