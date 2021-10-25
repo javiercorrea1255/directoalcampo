@@ -26,7 +26,7 @@
 
             <div>
                 <x-jet-label for="telefono" value="{{ __('Teléfono') }}" />
-                <x-jet-input id="telefono" class="block mt-1 w-full" type="number" name="telefono" :value="old('telefono')" required autofocus autocomplete='telefono' />
+                <x-jet-input id="telefono" class="block mt-1 w-full" type="number" name="telefono" :value="old('telefono')" required autofocus autocomplete='telefono' placeholder='10 dígitos' />
             </div>
         
             <div>
