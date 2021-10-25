@@ -6,7 +6,7 @@
             @if ($goal->id == $item->id)
                 <header class="flex justify-between items-center px-4 py-3">
                     <form class="flex-1" wire:submit.prevent="update">
-                        <input wire:model="goal.name" type="text" class="form-input @if($errors->has('goal.name')) invalid @endif" placeholder="Escribir...">
+                        <input wire:model="goal.name" type="text" class="form-input @if($errors->has('goal.name')) invalid @endif" placeholder="Máximo 10 palabras">
                         @error('goal.name')
                             <b class="block text-xs text-red-500 mt-1">{{ $message }}</b>
                         @enderror
