@@ -15,7 +15,7 @@
     ]
 @endphp
 
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100 shadow">
+<nav x-data="{ open: false }" class="bg-white border-b border-red-100 shadow">
 
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -74,7 +74,7 @@
                                         </x-jet-dropdown-link>
                                     @endcan
 
-                                    <div class="border-t border-gray-100"></div>
+                                    <div class="border-t border-red-100"></div>
 
                                     <!-- Team Switcher -->
                                     <div class="block px-4 py-2 text-xs text-gray-400">
@@ -157,8 +157,9 @@
                             </x-slot>
                         </x-jet-dropdown>
                     @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 btn btn primary">Ingresar</a>
-                        <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700  btn btn primary">Registrarse</a>
+                    <a href="{{ route('register') }}" class="ml-4 text-sm text-green-700  btn btn primary">Registrarse</a>
+                        <a href="{{ route('login') }}" class="text-sm text-red-700 btn btn primary">Ingresar</a>
+                       
                     @endauth
                 </div>
             </div>
