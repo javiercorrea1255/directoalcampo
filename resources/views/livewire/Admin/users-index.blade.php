@@ -15,8 +15,8 @@
                 <thead class="thead-light">
                   <tr>
                     <th scope="col">ID</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Email</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Correo electrónico</th>
                     <th scope="col">&nbsp;</th>
                   </tr>
                 </thead>
