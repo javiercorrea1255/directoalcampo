@@ -25,52 +25,52 @@
     </section>
 
     <section class="py-12">
-        <h1 class="text-gray-600 text-center text-3xl mb-6">Contenido</h1>
+        <h1 class="text-gray-600 text-center text-3xl mb-6">¡Nuestros amigos!</h1>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             <article>
                 <figure>
-                    <a class="card-img" href="https://directoalcampo.org/courses">
+                    <a class="card-img" href="https://www.facebook.com/egresadosanech">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/sombrero.jpg') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
-                    <h1 class="text-center text-xl text-gray-700">Cursos de capacitación presencial</h1>
+                    <h1 class="text-center text-xl text-gray-700">F-ANECh</h1>
                 </header>
 
-                <p class="text-sm text-center text-gray-500">Asesorate con nuestro expertos en prácticas de campo mediante nuestro sistema de cursos presenciales</p>
+                <p class="text-sm text-center text-gray-500">Federación de Asociaciones de Egresados de Chapingo A.C.</p>
             </article>
             <article>
                 <figure>
-                    <a class="card-img" href="https://directoalcampo.org/courses">
+                    <a class="card-img" href="https://www.facebook.com/SOMPROAGRI">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/tablet.jpg') }}" alt="">
                 </a>
                 <header class="mt-2">
-                    <h1 class="text-center text-xl text-gray-700">Capacitación virtual</h1>
+                    <h1 class="text-center text-xl text-gray-700">SOMPROAGRI A.C.</h1>
                 </header>
 
-                <p class="text-sm text-center text-gray-500">¡Aprende a tu ritmo! Capacitate con nuestros cursos pre-grabados a tu propio ritmo y obtén nuevas herramientas</p>
+                <p class="text-sm text-center text-gray-500">Sociedad Mexicana de Profesionales de la Agricultura</p>
             </article>
             <article>
                 <figure>
-                    <a class="card-img" href="https://directoalcampo.org/courses">
+                    <a class="card-img" href="https://www.facebook.com/CONAPRENC">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/infor.jpg') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
-                    <h1 class="text-center text-xl text-gray-700">Consultoría</h1>
+                    <h1 class="text-center text-xl text-gray-700">CONAPRENC A.C.</h1>
                 </header>
 
-                <p class="text-sm text-center text-gray-500">Obtén servicios de consultoría directamente con los expertos más calificados del sector</p>
+                <p class="text-sm text-center text-gray-500">Colegio Nacional de Profesionistas en Recursos Naturales A.C.</p>
             </article>
             <article>
                 <figure>
-                    <a class="card-img" href="https://directoalcampo.org/courses">
+                    <a class="card-img" href="https://www.facebook.com/CONAPRENC">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/drones-agricultura.jpeg') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
-                    <h1 class="text-center text-xl text-gray-700">Mantente actualizado</h1>
+                    <h1 class="text-center text-xl text-gray-700">Red Agroinnovación</h1>
                 </header>
 
                 <p class="text-sm text-center text-gray-500">Mantente al día en todas las innovaciones tecnológicas de nuestra rama</p>
