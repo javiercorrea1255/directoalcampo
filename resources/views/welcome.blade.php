@@ -66,7 +66,7 @@
             <article>
                 <figure>
                     <a class="card-img" href="https://www.facebook.com/redagroinnovacion">
-                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/red.jpg') }}" alt="">
+                    <img class="rounded-xl h-40 w-full object-cover" src="{{ asset('img/home/red.jpg') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
