@@ -31,7 +31,7 @@
             <article>
                 <figure>
                     <a class="card-img" href="https://www.facebook.com/egresadosanech">
-                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/sombrero.jpg') }}" alt="">
+                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/anech.png') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
@@ -43,7 +43,7 @@
             <article>
                 <figure>
                     <a class="card-img" href="https://www.facebook.com/SOMPROAGRI">
-                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/tablet.jpg') }}" alt="">
+                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/somproagri.jpg') }}" alt="">
                 </a>
                 <header class="mt-2">
                     <h1 class="text-center text-xl text-gray-700">SOMPROAGRI A.C.</h1>
@@ -54,7 +54,7 @@
             <article>
                 <figure>
                     <a class="card-img" href="https://www.facebook.com/CONAPRENC">
-                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/infor.jpg') }}" alt="">
+                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/conaprenc.jpg') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
@@ -66,7 +66,7 @@
             <article>
                 <figure>
                     <a class="card-img" href="https://www.facebook.com/redagroinnovacion">
-                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/drones-agricultura.jpeg') }}" alt="">
+                    <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/red.jpeg') }}" alt="">
                 </a>
                 </figure>
                 <header class="mt-2">
