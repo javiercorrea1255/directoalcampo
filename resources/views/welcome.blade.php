@@ -35,7 +35,7 @@
                 </a>
                 </figure>
                 <header class="mt-2">
-                    <h1 class="text-center text-xl text-gray-700">F-ANECh</h1>
+                    <h1 class="text-center text-xl text-gray-700">F-ANECh A.C.</h1>
                 </header>
 
                 <p class="text-sm text-center text-gray-500">Federación de Asociaciones de Egresados de Chapingo A.C.</p>
@@ -65,7 +65,7 @@
             </article>
             <article>
                 <figure>
-                    <a class="card-img" href="https://www.facebook.com/CONAPRENC">
+                    <a class="card-img" href="https://www.facebook.com/redagroinnovacion">
                     <img class="rounded-xl h-36 w-full object-cover" src="{{ asset('img/home/drones-agricultura.jpeg') }}" alt="">
                 </a>
                 </figure>
