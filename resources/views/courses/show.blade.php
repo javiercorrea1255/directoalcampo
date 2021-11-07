@@ -3,7 +3,7 @@
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <figure class="">
-                    <img class="h-60 w-full object-cover" src="{{ Storage::url($course->image->url) }}" alt="{{ $course->title }}">
+                    <img class="h-70 w-full object-cover" src="{{ Storage::url($course->image->url) }}" alt="{{ $course->title }}">
                 </figure>
                 <div>
                     <h1 class="text-4xl">{{ $course->title }}</h1>
