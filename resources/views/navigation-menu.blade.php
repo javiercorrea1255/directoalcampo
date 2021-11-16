@@ -157,7 +157,7 @@
                             </x-slot>
                         </x-jet-dropdown>
                     @else
-                    <a href="{{ route('register') }}" class="ml-4 text-sm text-green-700  btn btn-primary">Registrarse</a>
+                    <a href="{{ route('register') }}" class="ml-4 text-sm text-green-700  btn btn-primary">Crear una cuenta</a>
                         <a href="{{ route('login') }}" class="text-sm text-red-700 btn btn-primary">Ingresar</a>
                        
                     @endauth
