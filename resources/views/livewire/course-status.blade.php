@@ -124,7 +124,7 @@
         <p>NOTA: La cuota de recuperación por generación de constancias solo aplica para los cursos gratuitos, en el caso de los cursos comprados la constancia está incluida y llegará automáticamente a su correo una vez concluído el curso</p>
     </Section>
     <section class="container py-12">
-        <a href='https://wa.me/message/7RJ2PATTDN64P1' class="bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none">Solicita tu constancia (Inversión $200 MXN)</a>
+        <a href='https://wa.me/message/7RJ2PATTDN64P1' class="bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none">Solicita tu constancia (Cuota de recuperación $200 MXN)</a>
     </section>
     <section class="container py-12">
     <a href='https://www.facebook.com/groups/203605471849154/' class="bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none">Únete a nuestro foro de preguntas en Facebook</a>
