@@ -121,7 +121,7 @@
     </section>
 
     <Section>
-        <p>NOTA: La cuota de recuperación por generación de constancias solo aplica para los cursos gratuitos, en el caso de los cursos comprados la constancia está incluida y llegará automáticamente a su correo una vez concluído el curso</p>
+        <p>NOTA: La cuota de recuperación por generación de constancias solo aplica para los cursos gratuitos, en el caso de los cursos adquiridos vía Directo al Campo o cualquiera de sus socios la constancia está incluida y llegará automáticamente a su correo una vez concluído el curso</p>
     </Section>
     <section class="container py-12">
         <a href='https://wa.me/message/7RJ2PATTDN64P1' class="bg-blue-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg focus:outline-none">Solicita tu constancia (Cuota de recuperación $200 MXN)</a>
