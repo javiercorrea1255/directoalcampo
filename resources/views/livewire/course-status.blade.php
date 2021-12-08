@@ -1,5 +1,5 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2792464016414046"
-     crossorigin="anonymous"></script>
+
+
 <div>
     <section class="container py-12">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
