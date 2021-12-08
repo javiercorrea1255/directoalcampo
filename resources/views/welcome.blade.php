@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2792464016414046"
+     crossorigin="anonymous"></script>
     <script data-ad-client="ca-pub-2792464016414046" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta name="facebook-domain-verification" content="te43zicqoal9qcizl6w5eltn15gppu" />
     <meta charset="UTF-8">
