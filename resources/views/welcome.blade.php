@@ -46,7 +46,7 @@
     </section>
 
     <section class="py-12">
-        <h1 class="text-gray-600 text-center text-3xl mb-6 font-bold">¡Los mejores capacitadores del sector alimentario y ambiental!</h1>
+        <h1 class="text-gray-600 text-center text-3xl mb-6 font-bold">¡Solicita su acceso a la nueva plataforma directoalcampo.com!</h1>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             <article>
