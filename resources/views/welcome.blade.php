@@ -37,8 +37,8 @@
         <div class="max-w-7xl mx-auto px-4 py-36 sm:px-6 lg:px-8 text-white">
             <div class="w-full md:w-3/4 lg:w-1/2">
                 <h1 class="font-bold text-4xl">Bienvenido a Directo al Campo</h1>
-                <p class="text-lg mt-2 mb-4">¡La nueva plataforma de capacitación del sector agrícola!</p>
-
+                <p class="text-lg mt-2 mb-4">¡NOS MUDAMOS A directoalcampo.com</p>
+                <p class="text-lg mt-2 mb-4">¡Solicita tu acceso a la nueva plataforma!</p>
                 @livewire('search')
 
             </div>
